@@ -7,42 +7,42 @@ public class MainModel {
     public MainModel() {
     }
 
-    public MainModel(String nombre, String apellido, String email, String imgUrl) {
-        Nombre = nombre;
-        Apellido = apellido;
-        this.Email = email;
-        this.ImgUrl = imgUrl;
+    public MainModel(String Nombre, String Apellido, String Email, String ImgUrl) {
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Email = Email;
+        this.ImgUrl = ImgUrl;
     }
 
     public String getNombre() {
         return Nombre;
     }
 
-    public void setNombre(String nombre) {
-        Nombre = nombre;
+    public void setNombre(String Nombre) {
+        Nombre = Nombre;
     }
 
     public String getApellido() {
         return Apellido;
     }
 
-    public void setApellido(String apellido) {
-        Apellido = apellido;
+    public void setApellido(String Apellido) {
+        Apellido = Apellido;
     }
 
     public String getEmail() {
         return Email;
     }
 
-    public void setEmail(String email) {
-        Email = email;
+    public void setEmail(String Email) {
+        Email = Email;
     }
 
     public String getImgUrl() {
         return ImgUrl;
     }
 
-    public void setImgUrl(String imgUrl) {
-        ImgUrl = imgUrl;
+    public void setImgUrl(String ImgUrl) {
+        ImgUrl = ImgUrl;
     }
 }
