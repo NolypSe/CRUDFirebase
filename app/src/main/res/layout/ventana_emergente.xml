@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Actualizar"
+            android:background="#9C27B8"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:id="@+id/txtNombreAM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Nombre" />
+
+        <EditText
+            android:id="@+id/txtNombreAC"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/rounded"
+            />
+
+        <TextView
+            android:id="@+id/txtApellidoAM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Apellido" />
+
+        <EditText
+            android:id="@+id/txtApellidoAC"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/rounded" />
+
+        <TextView
+            android:id="@+id/txtEmailAM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/txtEmailAC"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/rounded" />
+
+        <TextView
+            android:id="@+id/txtImgUrlAM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="ImgUrl" />
+
+        <EditText
+            android:id="@+id/txtImgUrlAC"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/rounded" />
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="35dp"
+            android:text="Actualizar"
+            android:textSize="21dp"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
